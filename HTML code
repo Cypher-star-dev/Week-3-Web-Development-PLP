@@ -1,0 +1,41 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="week 3 css.css">
+    <title>Adding colors with css</title>
+    <style> 
+         body{
+            background-color: yellow;  
+         }
+
+    </style>
+</head>
+<body>
+    <h2>Title 2</h2> <!--Styling some paragraphs, playing around-->
+    <p class="blue-text">ipsum dolor sit amet consectetur, adipisicing elit. Expedita debitis, magnam earum id harum deserunt praesentium, qui consequatur dolor, impedit sit quae aperiam non inventore amet repellendus? Ipsa, cumque mollitia.</p>
+    <br>
+    <p class="deeppink-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas atque nam incidunt velit cum ullam ea culpa consequuntur quaerat obcaecati, autem tempore cumque quod sapiente alias voluptas necessitatibus? Recusandae, sit.</p>
+    <br>
+    <p class="green-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eos doloribus ipsam numquam ad ducimus quisquam pariatur fugiat excepturi facere ullam quaerat dicta ut ipsa reiciendis consequatur. Esse, illo distinctio!</p>
+    
+    <!--Cat Image Section-->
+    <div id="div1">
+        <a target="_blank" href="https://c8.alamy.com/comp/WN44DX/close-up-of-cat-looking-up-in-darkroom-WN44DX.jpg">
+        <img src="https://c8.alamy.com/comp/WN44DX/close-up-of-cat-looking-up-in-darkroom-WN44DX.jpg" alt="close-up-of-cat-looking-up-in-darkroom" width="300">
+        </a>
+        <p id="p2">Images are from Unsplash</p>
+        <div class="description">Cat wallpaper</div>
+    </div>
+
+    <!--Vintage-hallway section-->
+    <div id="div2">
+         <a target="_blank" href="https://c7.alamy.com/comp/2RK4WFA/a-vintage-style-hallway-featuring-a-long-wooden-corridor-with-several-windows-along-one-side-2RK4WFA.jpg">
+         <img src="https://c7.alamy.com/comp/2RK4WFA/a-vintage-style-hallway-featuring-a-long-wooden-corridor-with-several-windows-along-one-side-2RK4WFA.jpg" alt="vintage-style hallway" width="300">
+         </a>
+         <div class="description">vintage-style wallpaper</div>
+    </div>
+    
+</body>
+</html>
